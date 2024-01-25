@@ -11,6 +11,9 @@ module.exports = {
         sans: ["Poppins"],
         kanit: ["Kanit"],
       },
+      colors: {
+        palpite: "#A3B0C1",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

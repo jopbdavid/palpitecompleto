@@ -5,7 +5,7 @@ const About = () => {
     <div className=" flex flex-col items-center justify-center pt-12 pb-12 bg-neutral">
       <div className="avatar z-10">
         <div className="w-64 rounded-full">
-          <img src="./img/artur.jpg" />
+          <img src="./img/artur.jpg" alt="Artur" />
         </div>
       </div>
 

@@ -8,16 +8,16 @@ const Footer = () => {
         <p className="font-black font-kanit tracking-[0.2em] p-6 text-xl">
           AQUI ENCONTRA A MELHOR SOLUÇÃO
         </p>
-        <div className="flex flex-row gap-6 opacity-80 font-kanit text-lg">
-          <div className="flex w-1/3 justify-center items-center bg-slate-300 rounded-full">
-            <img src="./img/phone.png" alt="" className="w-8" />
+        <div className="flex flex-col gap-3 justify-center items-center lg:flex-row lg:gap-6 opacity-80 font-kanit text-lg">
+          <div className="flex w-1/2 lg:w-1/3 justify-center items-center bg-slate-300 rounded-full">
+            <img src="./img/phone.png" alt="" className="w-6" />
             <p className="ml-2">234 041 199</p>
           </div>
-          <div className="flex w-1/3 justify-center items-center  bg-slate-300 rounded-full pr-4">
+          <div className="flex lg:w-1/3 justify-center items-center  bg-slate-300 rounded-full pr-4">
             <img src="./img/mail.png" alt="" className="w-6 ml-6" />
             <p className="ml-2">geral@palpitecompleto.com</p>
           </div>
-          <div className="flex w-1/3 justify-center items-center  bg-slate-300 rounded-full pr-4">
+          <div className="flex lg:w-1/3 justify-center items-center  bg-slate-300 rounded-full pr-4">
             <img src="./img/location.png" alt="" className="w-6 ml-6" />
             <p className="ml-2">Av. Europa 264, 3800-533 Cacia - Aveiro</p>
           </div>

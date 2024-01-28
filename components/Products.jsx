@@ -2,12 +2,12 @@ import React from "react";
 
 const Products = () => {
   return (
-    <div className="bg-neutral py-6 md:py-28 lg:py-32 text-palpite flex flex-col justify-center items-center">
-      <h1 className="text-md md:text-2xl lg:text-3xl font-bold text-palpite tracking-[0.25em] ">
+    <div className="bg-neutral py-6 md:py-12 lg:py-16 text-palpite flex flex-col justify-center items-center">
+      <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-palpite tracking-[0.25em] ">
         PRODUTOS
       </h1>
-      <div className="flex flex-col items-center md:flex-row md:justify-around  md:w-full lg:w-full mt-4 md:mt-16 lg:mt-24">
-        <div className="flex flex-col p-3 justify-center md:place-self-start md:align-middle">
+      <div className="flex flex-col items-center md:flex-row md:justify-around md:w-full lg:w-full mt-4 md:mt-16 lg:mt-24">
+        <div className="flex flex-col p-3 justify-center items-center md:place-self-start md:align-middle">
           <div className="w-10 h-10 mb-4 md:w-24 md:h-24">
             <img src="/img/pipe.gif" alt="canalização" />
           </div>
@@ -18,7 +18,7 @@ const Products = () => {
             <p>Ligação e Instalação</p>
           </div>
         </div>
-        <div className="flex flex-col p-3 justify-center md:place-self-start">
+        <div className="flex flex-col p-3 justify-center items-center md:place-self-start">
           <div className="w-10 h-10 mb-4 md:w-24 md:h-24">
             <img src="/img/air.gif" alt="air-conditioner" />
           </div>
@@ -32,7 +32,7 @@ const Products = () => {
             <p>Radiadores a Água</p>
           </div>
         </div>
-        <div className="flex flex-col p-3 justify-center md:place-self-start">
+        <div className="flex flex-col p-3 justify-center items-center md:place-self-start">
           <div className="w-10 h-10 mb-4 md:w-24 md:h-24">
             <img src="/img/boiler.png" alt="database icon" />
           </div>
@@ -45,7 +45,7 @@ const Products = () => {
             <p className="flex flex-row">Desumificadores</p>
           </div>
         </div>
-        <div className="flex flex-col p-3 justify-center md:place-self-start">
+        <div className="flex flex-col p-3 justify-center items-center md:place-self-start">
           <div className="w-10 h-10 mb-4 md:w-24 md:h-24">
             <img src="/img/toilet.gif" alt="toilet gif" />
           </div>

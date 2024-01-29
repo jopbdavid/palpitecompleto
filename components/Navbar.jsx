@@ -30,21 +30,59 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 "
           >
             <li>
-              <a>PALPITE</a>
-            </li>
-            <li>
               <a>PRODUTOS</a>
-              <ul className="p-2">
+              {/* SUBMENU */}
+              <ul className="p-2 ">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Sistemas de Evacuação (PVC)</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Sistemas de Pressão</a>
+                </li>
+                <li>
+                  <a>Acessórios Canalização</a>
+                </li>
+                <li>
+                  <a>Gás</a>
+                  {/* <ul>
+                    <li>
+                      <a>Auth management system</a>
+                    </li>
+                    <li>
+                      <a>VScode theme</a>
+                    </li>
+                    <li>
+                      <a>Color picker app</a>
+                    </li>
+                  </ul> */}
+                </li>
+                <li>
+                  <a href=""> Águas Quentes Sanitárias (AQS) e AVAC</a>
+                </li>
+                <li>
+                  <a href="">Rega, Jardim e Mangueiras</a>
+                </li>
+                <li>
+                  <a href="">Utilitários (Ferramentas)</a>
                 </li>
               </ul>
+
+              {/* SUBMENU */}
             </li>
             <li>
-              <a>CONTACTOS</a>
+              <a>EMPRESA</a>
+              <ul>
+                <li>
+                  <a>Sobre Nós</a>
+                </li>
+                <li>
+                  <a>Contactos</a>
+                </li>
+
+                <li>
+                  <a>Carreiras</a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -57,27 +95,70 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex sm:flex ">
-        <ul className="menu menu-horizontal px-1 font-kanit tracking-[0.25em] font-bold lg:text-lg md:text-[0.75em] ">
-          <li>
-            <a>
-              <span>PALPITE</span>
-            </a>
-          </li>
+        <ul className="menu menu-horizontal px-1">
           <li>
             <details>
-              <summary>PRODUTOS</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
+              <summary className="font-kanit tracking-[0.25em] font-bold lg:text-lg md:text-[0.75em] px-10 ">
+                PRODUTOS
+              </summary>
+              <ul className=" text-[0.8em]">
+                <div className="border-l-[0.1em] ml-2 border-palpite ">
+                  <li>
+                    <a>Sistemas de Evacuação (PVC)</a>
+                  </li>
+                  <li>
+                    <a>Sistemas de Pressão</a>
+                  </li>
+                  <li>
+                    <a>Acessórios Canalização</a>
+                  </li>
+                  <li>
+                    <a>Gás</a>
+                    {/* <ul>
+                    <li>
+                      <a>Auth management system</a>
+                    </li>
+                    <li>
+                      <a>VScode theme</a>
+                    </li>
+                    <li>
+                      <a>Color picker app</a>
+                    </li>
+                  </ul> */}
+                  </li>
+                  <li>
+                    <a href=""> Águas Quentes Sanitárias (AQS) e AVAC</a>
+                  </li>
+                  <li>
+                    <a href="">Rega, Jardim e Mangueiras</a>
+                  </li>
+                  <li>
+                    <a href="">Utilitários (Ferramentas)</a>
+                  </li>
+                </div>
               </ul>
             </details>
           </li>
           <li>
-            <a>CONTACTOS</a>
+            <details>
+              <summary className="font-kanit tracking-[0.25em] font-bold lg:text-lg md:text-[0.75em] px-10 ">
+                EMPRESA
+              </summary>
+              <ul className="text-[0.8em]">
+                <div className="border-l-[0.1em] ml-2 border-palpite ">
+                  <li>
+                    <a>Sobre Nós</a>
+                  </li>
+                  <li>
+                    <a>Contactos</a>
+                  </li>
+
+                  <li>
+                    <a>Carreiras</a>
+                  </li>
+                </div>
+              </ul>
+            </details>
           </li>
         </ul>
       </div>

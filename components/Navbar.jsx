@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -99,7 +100,7 @@ const Navbar = () => {
           <li>
             <details>
               <summary className="font-kanit tracking-[0.25em] font-bold lg:text-lg md:text-[0.75em] px-10 ">
-                PRODUTOS
+                <Link href="/products">PRODUTOS</Link>
               </summary>
               <ul className=" text-[0.8em]">
                 <div className="border-l-[0.1em] ml-2 border-palpite ">

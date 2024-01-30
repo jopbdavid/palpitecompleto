@@ -1,6 +1,5 @@
 "use server";
-import { generateTourImage, getSingleTour } from "@/utils/action";
-import TourInfo from "@/components/TourInfo";
+
 import { redirect } from "next/dist/server/api-utils";
 import Link from "next/link";
 import Image from "next/image";

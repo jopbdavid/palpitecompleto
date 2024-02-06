@@ -87,20 +87,22 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl h-full">
+
+        <Link href="/" className="btn btn-ghost text-xl h-full">
+          {" "}
           <img
             src="./img/palpitelogo2.png"
             alt="logo"
             className="w-36 ml-16 object-contain md:w-62 md:ml-0 lg:w-72 lg:ml-0"
           />
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex sm:flex ">
         <ul className="menu menu-horizontal px-1">
           <li>
             <details>
               <summary className="font-kanit tracking-[0.25em] font-bold lg:text-lg md:text-[0.75em] px-10 ">
-                <Link href="/products">PRODUTOS</Link>
+                <Link href="">PRODUTOS</Link>
               </summary>
               <ul className=" text-[0.8em]">
                 <div className="border-l-[0.1em] ml-2 border-palpite ">
